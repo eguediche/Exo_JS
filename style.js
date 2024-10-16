@@ -20,3 +20,27 @@ let h = 2;
 let s = h * 3600;
 
 console.log(s);
+
+//exo 4
+let age = prompt("Votre âge ?");
+let natio = prompt("Votre nationnalitée?");
+
+if (age >18 & natio === "française") {
+  console.log("Eligible");
+}
+
+//exo 5
+
+let Age = prompt ("Votre âge?");
+
+if (Age <5) {
+  console.log("Tarif gratuit")
+}
+
+if (Age >5) {
+  console.log("Tarif réduit")
+}
+
+if (Age >17) {
+  console.log("Tarif plein")
+}
